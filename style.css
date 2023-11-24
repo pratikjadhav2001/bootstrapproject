@@ -1,0 +1,123 @@
+#homeSection  {
+    box-sizing: border-box;
+    margin: 0 auto;
+    background: linear-gradient(to right, #e4d1cc, #f5c4f1);
+    padding-bottom: 50px;
+}
+.info{
+    margin: 0 auto;
+}
+ 
+#main_title{
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.nav-item:hover{
+        background-color: yellow;
+}
+
+.nav-item{
+    margin: 0 10px;
+}
+
+.logo img{ 
+    width: 160px;
+}
+
+h1{
+    font-family: 'Iowan Old Style', 'Apple Garamond', Baskerville, 'Times New Roman', 'Droid Serif', Times, 'Source Serif Pro', serif;
+    font-style: normal;
+    font-weight: 700;
+    margin: 0;
+    font-size: 1em;
+    letter-spacing: -0.012em;
+    text-transform: capitalize;
+    --fontSize: 80;
+    line-height: 1;
+    color: #2f304a;
+}
+/* .mainimg {
+    width: 300px;
+    height: 300px;
+} */
+
+
+
+.main-container{
+    display: flex;
+}
+
+.main-container .info{
+    flex: 1;
+}
+
+.main{
+    border-radius: 100px;
+}
+
+.mainimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.equal-height-row {
+    display: flex;
+    border-radius: 50px;
+   
+}
+
+.equal-height-column {
+    flex: 1;
+}
+
+#main_content{
+    border-radius: 30px !important;
+    overflow: hidden;
+}
+.badge :first-child{
+    border: red solid 2px; 
+
+}
+
+.list_items{
+    list-style: none;
+    padding: 0;
+}
+
+
+.list_items a {
+    text-decoration: none;
+    list-style: none;
+     float: left;
+     color: white;                                   
+}
+
+.col ul li {
+    text-decoration: none;
+    list-style: none;
+     float: left;
+     color: white;                                   
+}
+.list_items a:hover{
+
+     color: yellow;                                   
+}
+.border {
+    border-right: 1px solid #f80606; /* Adjust the color and width as needed */
+    padding-right: 10px; /* Adjust the spacing between the line and content */
+    display: inline-block;
+    margin-right: 10px; /* Adjust the spacing between multiple elements */
+}
+#newsletter {
+    background-color: #292a41;
+}
+#fotter {
+    background-color: #292a41;
+}
+                     
+
+
+/* FOOTER */
+
