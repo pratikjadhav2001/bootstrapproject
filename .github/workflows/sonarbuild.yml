@@ -1,9 +1,10 @@
-name: Build
+name: Build (29_06_25)
 
 on:
   push:
     branches:
       - main
+      - pj/cicd/changes
 
 
 jobs:
